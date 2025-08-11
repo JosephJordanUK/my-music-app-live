@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 
 const albums = [
-  { id: 1, title: "Mainstream Freestyle", artist: "Instrumental", cover: "/sample-audio/cover1.jpg", src: "/sample-audio/sample1.mp3" },
-  { id: 2, title: "1942", artist: "Instrumental", cover: "/sample-audio/cover2.jpg", src: "/sample-audio/sample2.mp3" }
+  { id: 1, title: "Mainstream Freestyle", artist: "Instrumental", cover: "covers/cover1.jpg", src: "/sample-audio/sample1.mp3" },
+  { id: 2, title: "1942", artist: "Instrumental", cover: "/covers/cover2.jpg", src: "/sample-audio/sample2.mp3" }
 ];
 
 export default function AlbumList() {
